@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RBProject version="2017r1.1" FormatVersion="2" MinIDEVersion="20070100">
+<block type="Project" ID="0">
+ <ProjectSavedInVers>2017.011</ProjectSavedInVers>
+ <MajorVersion>1</MajorVersion>
+ <MinorVersion>1</MinorVersion>
+ <SubVersion>0</SubVersion>
+ <Release>0</Release>
+ <NonRelease>0</NonRelease>
+ <Region></Region>
+ <ShortVersion></ShortVersion>
+ <LongVersion></LongVersion>
+ <InfoVersion></InfoVersion>
+ <AutoIncVersion>0</AutoIncVersion>
+ <DefaultViewID>1931726847</DefaultViewID>
+ <ProjectType>0</ProjectType>
+ <DefaultLanguage>0</DefaultLanguage>
+ <CurrentLanguage>0</CurrentLanguage>
+ <DefaultEncoding>0</DefaultEncoding>
+ <BuildFlags>18688</BuildFlags>
+ <UseBuildsFolder>1</UseBuildsFolder>
+ <WebApp>0</WebApp>
+ <Icon>
+ </Icon>
+ <MacCreator></MacCreator>
+ <BuildCarbonMachOName>taniget</BuildCarbonMachOName>
+ <BundleIdentifier>com.mycompany.taniget</BundleIdentifier>
+ <WinMDICaption></WinMDICaption>
+ <BuildWinName>taniget.exe</BuildWinName>
+ <BuildWinMDI>0</BuildWinMDI>
+ <BuildWinCompanyName>My Company</BuildWinCompanyName>
+ <BuildWinProductName></BuildWinProductName>
+ <BuildWinInternalName></BuildWinInternalName>
+ <BuildWinFileDescription></BuildWinFileDescription>
+ <UseGDIPlus>0</UseGDIPlus>
+ <HiDPI>1</HiDPI>
+ <BuildLinuxX86Name>taniget</BuildLinuxX86Name>
+ <DebuggerCommandLine></DebuggerCommandLine>
+ <WindowsArchitecture>1</WindowsArchitecture>
+ <OptimizationLevel>0</OptimizationLevel>
+ <CopyWindowsRedist>0</CopyWindowsRedist>
+</block>
+<block type="Module" ID="102195199">
+ <ObjName>App</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>Application</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <IsApplicationObject>1</IsApplicationObject>
+ <Compatibility></Compatibility>
+ <PropertyVal Name="MenuBar">428134399</PropertyVal>
+ <ViewBehavior>
+ </ViewBehavior>
+ <Constant>
+  <ItemName>kFileQuitShortcut</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef></ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>1</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>Cmd+Q</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>5</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>Ctrl+Q</ItemDef>
+  </ConstantInstance>
+ </Constant>
+ <Constant>
+  <ItemName>kFileQuit</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef>終了</ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>2</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>終了</ItemDef>
+  </ConstantInstance>
+ </Constant>
+ <Constant>
+  <ItemName>kEditClear</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef>削除</ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>2</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>削除</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>5</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>削除</ItemDef>
+  </ConstantInstance>
+ </Constant>
+</block>
+<block type="Window" ID="1931726847">
+ <ObjName>Window1</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>Window</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <PropertyVal Name="MenuBarVisible">True</PropertyVal>
+ <PropertyVal Name="MenuBar">428134399</PropertyVal>
+ <PropertyVal Name="Backdrop">0</PropertyVal>
+ <PropertyVal Name="BackColor">16777215</PropertyVal>
+ <PropertyVal Name="HasBackColor">False</PropertyVal>
+ <PropertyVal Name="FullScreen">False</PropertyVal>
+ <PropertyVal Name="LiveResize">True</PropertyVal>
+ <PropertyVal Name="Visible">True</PropertyVal>
+ <PropertyVal Name="Placement">0</PropertyVal>
+ <PropertyVal Name="ImplicitInstance">True</PropertyVal>
+ <PropertyVal Name="MacProcID">0</PropertyVal>
+ <PropertyVal Name="Composite">True</PropertyVal>
+ <PropertyVal Name="FullScreenButton">False</PropertyVal>
+ <PropertyVal Name="MinimizeButton">True</PropertyVal>
+ <PropertyVal Name="MaximizeButton">True</PropertyVal>
+ <PropertyVal Name="Resizeable">False</PropertyVal>
+ <PropertyVal Name="CloseButton">True</PropertyVal>
+ <PropertyVal Name="Title">taniget_gh</PropertyVal>
+ <PropertyVal Name="Frame">0</PropertyVal>
+ <PropertyVal Name="MaxHeight">32000</PropertyVal>
+ <PropertyVal Name="MaxWidth">32000</PropertyVal>
+ <PropertyVal Name="MinHeight">64</PropertyVal>
+ <PropertyVal Name="MinWidth">64</PropertyVal>
+ <PropertyVal Name="Height">627</PropertyVal>
+ <PropertyVal Name="Width">682</PropertyVal>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>String</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Interfaces</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>String</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>String</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Width</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>600</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Height</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>400</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaxWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaxHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Frame</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Document</ItemDef>
+    <ItemDef>1 - Movable Modal</ItemDef>
+    <ItemDef>2 - Modal Dialog</ItemDef>
+    <ItemDef>3 - Floating Window</ItemDef>
+    <ItemDef>4 - Plain Box</ItemDef>
+    <ItemDef>5 - Shadowed Box</ItemDef>
+    <ItemDef>6 - Rounded Window</ItemDef>
+    <ItemDef>7 - Global Floating Window</ItemDef>
+    <ItemDef>8 - Sheet Window</ItemDef>
+    <ItemDef>9 - Metal Window</ItemDef>
+    <ItemDef>11 - Modeless Dialog</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Title</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>Untitled</PropertyValue>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>CloseButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Resizeable</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaximizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinimizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FullScreenButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Composite</ObjName>
+   <PropertyGroup>OS X (Carbon)</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MacProcID</ObjName>
+   <PropertyGroup>OS X (Carbon)</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ImplicitInstance</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Placement</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - Parent Window</ItemDef>
+    <ItemDef>2 - Main Screen</ItemDef>
+    <ItemDef>3 - Parent Window Screen</ItemDef>
+    <ItemDef>4 - Stagger</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Visible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LiveResize</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FullScreen</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasBackColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>BackColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>&amp;hFFFFFF</PropertyValue>
+   <ItemType>Color</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Backdrop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <ItemType>Picture</ItemType>
+   <EditorType>Picture</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Menus</PropertyGroup>
+   <ItemType>MenuBar</ItemType>
+   <EditorType>MenuBar</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBarVisible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Deprecated</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+ </ViewBehavior>
+ <Constant>
+  <ItemName>tanitaClientid</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef></ItemDef>
+  <ItemFlags>0</ItemFlags>
+ </Constant>
+ <Constant>
+  <ItemName>tanitaclientsecret</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef></ItemDef>
+  <ItemFlags>0</ItemFlags>
+ </Constant>
+ <ControlBehavior>
+  <Superclass>PushButton</Superclass>
+  <HookInstance>
+   <ItemName>Action</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Action()</SourceLine>
+    <SourceLine>//コード発行画面を呼び出す</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>dim s as String</SourceLine>
+    <SourceLine>s = "https://www.healthplanet.jp/oauth/auth?client_id="+self.tanitaClientid</SourceLine>
+    <SourceLine>s = s +"&amp;redirect_uri=https://www.healthplanet.jp/success.html&amp;scope=innerscan&amp;response_type=code"</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>dim w as  Window2</SourceLine>
+    <SourceLine>w = new Window2</SourceLine>
+    <SourceLine>w.show()</SourceLine>
+    <SourceLine>w.HTMLViewer1.LoadURL(s)</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>//self.HTMLViewer1.LoadURL (s)</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>//ShowURL(s)</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>TextField</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>PushButton</Superclass>
+  <HookInstance>
+   <ItemName>Action</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Action()</SourceLine>
+    <SourceLine>//発行されたコードをもとに、アクセストークンを貰う</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Dim form As Dictionary</SourceLine>
+    <SourceLine>Dim socket1 As HTTPSecureSocket</SourceLine>
+    <SourceLine>socket1 = New HTTPSecureSocket</SourceLine>
+    <SourceLine>socket1.Secure = True</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>form = New Dictionary</SourceLine>
+    <SourceLine>form.Value("client_id") = self.tanitaClientid</SourceLine>
+    <SourceLine>form.Value("client_secret") = self.tanitaclientsecret</SourceLine>
+    <SourceLine>form.Value("redirect_uri") = "https://www.healthplanet.jp/success.html"</SourceLine>
+    <SourceLine>form.Value("code") = code.Text</SourceLine>
+    <SourceLine>form.Value("grant_type") = "authorization_code"</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>socket1.SetFormData(form)</SourceLine>
+    <SourceLine>dim result as String</SourceLine>
+    <SourceLine>result = socket1.Post("https://www.healthplanet.jp/oauth/token", 4 )</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>//stringをtextにする。面倒くさいが一度エンコーディング情報をつけてからtoText</SourceLine>
+    <SourceLine>dim resp as Text</SourceLine>
+    <SourceLine>result=result.DefineEncoding(Encodings.UTF8)</SourceLine>
+    <SourceLine>resp = result.ToText</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>//Dim d As Dictionary では動かない!</SourceLine>
+    <SourceLine>Dim d As Xojo.Core.Dictionary</SourceLine>
+    <SourceLine>d = Xojo.Data.ParseJSON( resp )</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>listbox1.DeleteAllRows</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>For Each entry As Xojo.Core.DictionaryEntry In d</SourceLine>
+    <SourceLine>dim s1 as string</SourceLine>
+    <SourceLine>dim s2 as variant</SourceLine>
+    <SourceLine>s1=entry.key</SourceLine>
+    <SourceLine>s2=entry.Value</SourceLine>
+    <SourceLine>Listbox1.AddRow( s1,s2)</SourceLine>
+    <SourceLine>Next</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>if d.HasKey("access_token") then</SourceLine>
+    <SourceLine>token.Text = d.Value("access_token")</SourceLine>
+    <SourceLine>else</SourceLine>
+    <SourceLine>MsgBox ("アクセストークンの取得に失敗しています")</SourceLine>
+    <SourceLine>end if</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>Listbox</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>TextField</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>PushButton</Superclass>
+  <HookInstance>
+   <ItemName>Action</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Action()</SourceLine>
+    <SourceLine>'tag</SourceLine>
+    <SourceLine>'取得する測定部位を指定する。未指定の場合はデフォルトの値を取得する。カンマ区切りで指定する</SourceLine>
+    <SourceLine>'6021 : 体重 (kg)</SourceLine>
+    <SourceLine>'6022 : 体脂肪率 (%)</SourceLine>
+    <SourceLine>'6023 : 筋肉量 (kg)</SourceLine>
+    <SourceLine>'6024 : 筋肉スコア</SourceLine>
+    <SourceLine>'6025 : 内臓脂肪レベル2(小数点有り、手入力含まず)</SourceLine>
+    <SourceLine>'6026 : 内臓脂肪レベル(小数点無し、手入力含む)</SourceLine>
+    <SourceLine>'6027 : 基礎代謝量 (kcal)</SourceLine>
+    <SourceLine>'6028 : 体内年齢 (才)</SourceLine>
+    <SourceLine>'6029 : 推定骨量 (kg)</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Dim form As Dictionary</SourceLine>
+    <SourceLine>Dim socket1 As HTTPSecureSocket</SourceLine>
+    <SourceLine>socket1 = New HTTPSecureSocket</SourceLine>
+    <SourceLine>socket1.Secure = True</SourceLine>
+    <SourceLine>form = New Dictionary</SourceLine>
+    <SourceLine>form.Value("access_token") = self.token.Text</SourceLine>
+    <SourceLine>form.Value("date") = "1"</SourceLine>
+    <SourceLine>form.Value("tag") = "6021,6022,6023,6024,6025,6026,6027,6028,6029"</SourceLine>
+    <SourceLine>'form.Value("from") = "20170301000000"</SourceLine>
+    <SourceLine>'form.Value("to") = "20170705235900"</SourceLine>
+    <SourceLine>form.Value("from") = self.from.Text</SourceLine>
+    <SourceLine>form.Value("to") = self.here.Text</SourceLine>
+    <SourceLine>socket1.SetFormData(form)</SourceLine>
+    <SourceLine>dim result as String</SourceLine>
+    <SourceLine>result = socket1.Post("https://www.healthplanet.jp/status/innerscan.json", 4 )</SourceLine>
+    <SourceLine>dim resp as Text</SourceLine>
+    <SourceLine>result=result.DefineEncoding(Encodings.UTF8)</SourceLine>
+    <SourceLine>resp = result.ToText</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Dim dict As Xojo.Core.Dictionary</SourceLine>
+    <SourceLine>dict = Xojo.Data.ParseJSON( resp )</SourceLine>
+    <SourceLine>dim dataset() as Auto</SourceLine>
+    <SourceLine>dataset = dict.Value("data")</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Listbox2.DeleteAllRows</SourceLine>
+    <SourceLine>for each d as xojo.core.Dictionary in dataset</SourceLine>
+    <SourceLine>dim keydata as Text = d.Value("keydata")</SourceLine>
+    <SourceLine>dim date as Text = d.Value("date")</SourceLine>
+    <SourceLine>dim model as Text = d.Value("model")</SourceLine>
+    <SourceLine>dim tag as Text = d.Value("tag")</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>Listbox2.AddRow(date,keydata,model,tag)</SourceLine>
+    <SourceLine>next</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>Listbox</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>Label</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>TextField</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>TextField</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>Label</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>Label</Superclass>
+ </ControlBehavior>
+ <Control>
+  <ControlClass>PushButton</ControlClass>
+  <ItemName>PushButton</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="ButtonStyle">0</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Cancel">False</PropertyVal>
+  <PropertyVal Name="Default">True</PropertyVal>
+  <PropertyVal Name="Caption">コード発行画面</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex">3</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">20</PropertyVal>
+  <PropertyVal Name="Width">315</PropertyVal>
+  <PropertyVal Name="Top">20</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Super">PushButton</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">PushButton1</PropertyVal>
+  <ControlIndex>0</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>TextField</ControlClass>
+  <ItemName>TextField</ItemName>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutomaticallyCheckSpelling">False</PropertyVal>
+  <PropertyVal Name="Alignment">0</PropertyVal>
+  <PropertyVal Name="AcceptTabs">False</PropertyVal>
+  <PropertyVal Name="LimitText">0</PropertyVal>
+  <PropertyVal Name="ReadOnly">False</PropertyVal>
+  <PropertyVal Name="Mask"></PropertyVal>
+  <PropertyVal Name="Text"></PropertyVal>
+  <PropertyVal Name="CueText">ここにコードをペーストしてください</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Format"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="BackColor">16777215</PropertyVal>
+  <PropertyVal Name="TextColor">0</PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="Password">False</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex">4</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">22</PropertyVal>
+  <PropertyVal Name="Width">315</PropertyVal>
+  <PropertyVal Name="Top">19</PropertyVal>
+  <PropertyVal Name="Left">347</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Super">TextField</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">code</PropertyVal>
+  <ControlIndex>1</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>PushButton</ControlClass>
+  <ItemName>PushButton</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="ButtonStyle">0</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Cancel">False</PropertyVal>
+  <PropertyVal Name="Default">True</PropertyVal>
+  <PropertyVal Name="Caption">アクセストークン取得</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex">5</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">20</PropertyVal>
+  <PropertyVal Name="Width">315</PropertyVal>
+  <PropertyVal Name="Top">52</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Super">PushButton</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">PushButton2</PropertyVal>
+  <ControlIndex>2</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>Listbox</ControlClass>
+  <ItemName>Listbox</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutoHideScrollbars">True</PropertyVal>
+  <PropertyVal Name="ColumnsResizable">False</PropertyVal>
+  <PropertyVal Name="SelectionType">0</PropertyVal>
+  <PropertyVal Name="RequiresSelection">False</PropertyVal>
+  <PropertyVal Name="EnableDragReorder">False</PropertyVal>
+  <PropertyVal Name="EnableDrag">False</PropertyVal>
+  <PropertyVal Name="Hierarchical">False</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="_ScrollOffset">0</PropertyVal>
+  <PropertyVal Name="_ScrollWidth">-1</PropertyVal>
+  <PropertyVal Name="DefaultRowHeight">-1</PropertyVal>
+  <PropertyVal Name="GridLinesVertical">0</PropertyVal>
+  <PropertyVal Name="GridLinesHorizontal">0</PropertyVal>
+  <PropertyVal Name="ScrollBarVertical">True</PropertyVal>
+  <PropertyVal Name="ScrollbarHorizontal">False</PropertyVal>
+  <PropertyVal Name="HeadingIndex">-1</PropertyVal>
+  <PropertyVal Name="InitialValue"><Hex bytes="9">6B65790956616C7565</Hex></PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="HasHeading">True</PropertyVal>
+  <PropertyVal Name="ColumnWidths"></PropertyVal>
+  <PropertyVal Name="ColumnCount">2</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex">7</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">96</PropertyVal>
+  <PropertyVal Name="Width">315</PropertyVal>
+  <PropertyVal Name="Top">84</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Super">Listbox</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">Listbox1</PropertyVal>
+  <ControlIndex>3</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>TextField</ControlClass>
+  <ItemName>TextField</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutomaticallyCheckSpelling">False</PropertyVal>
+  <PropertyVal Name="Alignment">0</PropertyVal>
+  <PropertyVal Name="AcceptTabs">False</PropertyVal>
+  <PropertyVal Name="LimitText">0</PropertyVal>
+  <PropertyVal Name="ReadOnly">False</PropertyVal>
+  <PropertyVal Name="Mask"></PropertyVal>
+  <PropertyVal Name="Text"></PropertyVal>
+  <PropertyVal Name="CueText">アクセストークン</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Format"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="BackColor">16777215</PropertyVal>
+  <PropertyVal Name="TextColor">0</PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="Password">False</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex">8</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">22</PropertyVal>
+  <PropertyVal Name="Width">315</PropertyVal>
+  <PropertyVal Name="Top">192</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Super">TextField</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">token</PropertyVal>
+  <ControlIndex>4</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>PushButton</ControlClass>
+  <ItemName>PushButton</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="ButtonStyle">0</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Cancel">False</PropertyVal>
+  <PropertyVal Name="Default">True</PropertyVal>
+  <PropertyVal Name="Caption">データ取得</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex">9</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">20</PropertyVal>
+  <PropertyVal Name="Width">315</PropertyVal>
+  <PropertyVal Name="Top">309</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Super">PushButton</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">PushButton3</PropertyVal>
+  <ControlIndex>5</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>Listbox</ControlClass>
+  <ItemName>Listbox</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutoHideScrollbars">True</PropertyVal>
+  <PropertyVal Name="ColumnsResizable">True</PropertyVal>
+  <PropertyVal Name="SelectionType">1</PropertyVal>
+  <PropertyVal Name="RequiresSelection">False</PropertyVal>
+  <PropertyVal Name="EnableDragReorder">False</PropertyVal>
+  <PropertyVal Name="EnableDrag">False</PropertyVal>
+  <PropertyVal Name="Hierarchical">False</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="_ScrollOffset">0</PropertyVal>
+  <PropertyVal Name="_ScrollWidth">-1</PropertyVal>
+  <PropertyVal Name="DefaultRowHeight">-1</PropertyVal>
+  <PropertyVal Name="GridLinesVertical">0</PropertyVal>
+  <PropertyVal Name="GridLinesHorizontal">0</PropertyVal>
+  <PropertyVal Name="ScrollBarVertical">True</PropertyVal>
+  <PropertyVal Name="ScrollbarHorizontal">False</PropertyVal>
+  <PropertyVal Name="HeadingIndex">-1</PropertyVal>
+  <PropertyVal Name="InitialValue"><Hex bytes="22">64617465096B657964617461096D6F64656C09746167</Hex></PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="HasHeading">True</PropertyVal>
+  <PropertyVal Name="ColumnWidths"></PropertyVal>
+  <PropertyVal Name="ColumnCount">4</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex">10</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">555</PropertyVal>
+  <PropertyVal Name="Width">315</PropertyVal>
+  <PropertyVal Name="Top">52</PropertyVal>
+  <PropertyVal Name="Left">347</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Super">Listbox</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">Listbox2</PropertyVal>
+  <ControlIndex>6</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>Label</ControlClass>
+  <ItemName>Label</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Transparent">True</PropertyVal>
+  <PropertyVal Name="Selectable">False</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Multiline">True</PropertyVal>
+  <PropertyVal Name="TextColor">0</PropertyVal>
+  <PropertyVal Name="TextAlign">0</PropertyVal>
+  <PropertyVal Name="Text"><Hex bytes="300">36303231203A20E4BD93E9878D20286B67290A36303232203A20E4BD93E88482E882AAE78E87202825290A36303233203A20E7AD8BE88289E9878F20286B67290A36303234203A20E7AD8BE88289E382B9E382B3E382A20A36303235203A20E58685E88793E88482E882AAE383ACE38399E383AB3228E5B08FE695B0E782B9E69C89E3828AE38081E6898BE585A5E58A9BE590ABE381BEE3819A290A36303236203A20E58685E88793E88482E882AAE383ACE38399E383AB28E5B08FE695B0E782B9E784A1E38197E38081E6898BE585A5E58A9BE590ABE38280290A36303237203A20E59FBAE7A48EE4BBA3E8AC9DE9878F20286B63616C290A36303238203A20E4BD93E58685E5B9B4E9BDA22028E6898D290A36303239203A20E68EA8E5AE9AE9AAA8E9878F20286B6729</Hex></PropertyVal>
+  <PropertyVal Name="TabIndex">11</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">178</PropertyVal>
+  <PropertyVal Name="Width">383</PropertyVal>
+  <PropertyVal Name="Top">428</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Super">Label</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">Label1</PropertyVal>
+  <ControlIndex>7</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>TextField</ControlClass>
+  <ItemName>TextField</ItemName>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutomaticallyCheckSpelling">False</PropertyVal>
+  <PropertyVal Name="Alignment">0</PropertyVal>
+  <PropertyVal Name="AcceptTabs">False</PropertyVal>
+  <PropertyVal Name="LimitText">0</PropertyVal>
+  <PropertyVal Name="ReadOnly">False</PropertyVal>
+  <PropertyVal Name="Mask"></PropertyVal>
+  <PropertyVal Name="Text">20170401000000</PropertyVal>
+  <PropertyVal Name="CueText">MMddHHmmss</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Format"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="BackColor">16777215</PropertyVal>
+  <PropertyVal Name="TextColor">0</PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="Password">False</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex">13</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">22</PropertyVal>
+  <PropertyVal Name="Width">147</PropertyVal>
+  <PropertyVal Name="Top">241</PropertyVal>
+  <PropertyVal Name="Left">94</PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">TextField</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">from</PropertyVal>
+  <ControlIndex>8</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>TextField</ControlClass>
+  <ItemName>TextField</ItemName>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutomaticallyCheckSpelling">False</PropertyVal>
+  <PropertyVal Name="Alignment">0</PropertyVal>
+  <PropertyVal Name="AcceptTabs">False</PropertyVal>
+  <PropertyVal Name="LimitText">0</PropertyVal>
+  <PropertyVal Name="ReadOnly">False</PropertyVal>
+  <PropertyVal Name="Mask"></PropertyVal>
+  <PropertyVal Name="Text">20170701000000</PropertyVal>
+  <PropertyVal Name="CueText">MMddHHmmss</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Format"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="BackColor">16777215</PropertyVal>
+  <PropertyVal Name="TextColor">0</PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="Password">False</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex">14</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">22</PropertyVal>
+  <PropertyVal Name="Width">147</PropertyVal>
+  <PropertyVal Name="Top">275</PropertyVal>
+  <PropertyVal Name="Left">94</PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">TextField</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">here</PropertyVal>
+  <ControlIndex>9</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>Label</ControlClass>
+  <ItemName>Label</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Transparent">True</PropertyVal>
+  <PropertyVal Name="Selectable">False</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Multiline">False</PropertyVal>
+  <PropertyVal Name="TextColor">0</PropertyVal>
+  <PropertyVal Name="TextAlign">0</PropertyVal>
+  <PropertyVal Name="Text">from</PropertyVal>
+  <PropertyVal Name="TabIndex">15</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">20</PropertyVal>
+  <PropertyVal Name="Width">100</PropertyVal>
+  <PropertyVal Name="Top">241</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">Label</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">Label2</PropertyVal>
+  <ControlIndex>10</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>Label</ControlClass>
+  <ItemName>Label</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Transparent">True</PropertyVal>
+  <PropertyVal Name="Selectable">False</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Multiline">False</PropertyVal>
+  <PropertyVal Name="TextColor">0</PropertyVal>
+  <PropertyVal Name="TextAlign">0</PropertyVal>
+  <PropertyVal Name="Text">to</PropertyVal>
+  <PropertyVal Name="TabIndex">16</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">20</PropertyVal>
+  <PropertyVal Name="Width">100</PropertyVal>
+  <PropertyVal Name="Top">275</PropertyVal>
+  <PropertyVal Name="Left">20</PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">Label</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">Label3</PropertyVal>
+  <ControlIndex>11</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+</block>
+<block type="Menu" ID="428134399">
+ <ObjName>MainMenuBar</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>FileMenu</ItemName>
+  <ItemText>ファイル</ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>1</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>MenuItem</Superclass>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>FileQuit</ItemName>
+   <ItemText>#App.kFileQuit</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>#App.kFileQuitShortcut</ItemShortcut>
+   <MenuShortcut>#App.kFileQuitShortcut</MenuShortcut>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>QuitMenuItem</Superclass>
+  </MenuItem>
+ </MenuItem>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>EditMenu</ItemName>
+  <ItemText>編集</ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>1</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>MenuItem</Superclass>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditUndo</ItemName>
+   <ItemText>取り消す</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+Z</ItemShortcut>
+   <MenuShortcut>Z</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditSeparator1</ItemName>
+   <ItemText>-</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditCut</ItemName>
+   <ItemText>カット</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+X</ItemShortcut>
+   <MenuShortcut>X</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditCopy</ItemName>
+   <ItemText>コピー</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+C</ItemShortcut>
+   <MenuShortcut>C</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditPaste</ItemName>
+   <ItemText>貼り付け</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+V</ItemShortcut>
+   <MenuShortcut>V</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditClear</ItemName>
+   <ItemText>#App.kEditClear</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditSeparator2</ItemName>
+   <ItemText>-</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditSelectAll</ItemName>
+   <ItemText>すべてを選択</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+A</ItemShortcut>
+   <MenuShortcut>A</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+ </MenuItem>
+</block>
+<block type="BuildAutomation" ID="956919807">
+ <ObjName>Build Automation</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="1231896575">
+ <ObjName>Linux</ObjName>
+ <ObjContainerID>956919807</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="661962751">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>1231896575</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="129200127">
+ <ObjName>Mac OS X</ObjName>
+ <ObjContainerID>956919807</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="326143999">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>129200127</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="1938681855">
+ <ObjName>Windows</ObjName>
+ <ObjContainerID>956919807</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="491919359">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>1938681855</ObjContainerID>
+</block>
+<block type="Window" ID="452712447">
+ <ObjName>Window2</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>Window</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <PropertyVal Name="MenuBarVisible">True</PropertyVal>
+ <PropertyVal Name="MenuBar">0</PropertyVal>
+ <PropertyVal Name="Backdrop">0</PropertyVal>
+ <PropertyVal Name="BackColor">16777215</PropertyVal>
+ <PropertyVal Name="HasBackColor">False</PropertyVal>
+ <PropertyVal Name="FullScreen">False</PropertyVal>
+ <PropertyVal Name="LiveResize">True</PropertyVal>
+ <PropertyVal Name="Visible">True</PropertyVal>
+ <PropertyVal Name="Placement">0</PropertyVal>
+ <PropertyVal Name="ImplicitInstance">True</PropertyVal>
+ <PropertyVal Name="MacProcID">0</PropertyVal>
+ <PropertyVal Name="Composite">True</PropertyVal>
+ <PropertyVal Name="FullScreenButton">False</PropertyVal>
+ <PropertyVal Name="MinimizeButton">True</PropertyVal>
+ <PropertyVal Name="MaximizeButton">True</PropertyVal>
+ <PropertyVal Name="Resizeable">True</PropertyVal>
+ <PropertyVal Name="CloseButton">True</PropertyVal>
+ <PropertyVal Name="Title">名称未設定</PropertyVal>
+ <PropertyVal Name="Frame">8</PropertyVal>
+ <PropertyVal Name="MaxHeight">32000</PropertyVal>
+ <PropertyVal Name="MaxWidth">32000</PropertyVal>
+ <PropertyVal Name="MinHeight">64</PropertyVal>
+ <PropertyVal Name="MinWidth">64</PropertyVal>
+ <PropertyVal Name="Height">520</PropertyVal>
+ <PropertyVal Name="Width">526</PropertyVal>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>String</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Interfaces</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>String</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>String</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Width</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>600</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Height</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>400</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaxWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaxHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Frame</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Document</ItemDef>
+    <ItemDef>1 - Movable Modal</ItemDef>
+    <ItemDef>2 - Modal Dialog</ItemDef>
+    <ItemDef>3 - Floating Window</ItemDef>
+    <ItemDef>4 - Plain Box</ItemDef>
+    <ItemDef>5 - Shadowed Box</ItemDef>
+    <ItemDef>6 - Rounded Window</ItemDef>
+    <ItemDef>7 - Global Floating Window</ItemDef>
+    <ItemDef>8 - Sheet Window</ItemDef>
+    <ItemDef>9 - Metal Window</ItemDef>
+    <ItemDef>11 - Modeless Dialog</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Title</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>Untitled</PropertyValue>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>CloseButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Resizeable</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaximizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinimizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FullScreenButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Composite</ObjName>
+   <PropertyGroup>OS X (Carbon)</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MacProcID</ObjName>
+   <PropertyGroup>OS X (Carbon)</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ImplicitInstance</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Placement</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - Parent Window</ItemDef>
+    <ItemDef>2 - Main Screen</ItemDef>
+    <ItemDef>3 - Parent Window Screen</ItemDef>
+    <ItemDef>4 - Stagger</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Visible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LiveResize</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FullScreen</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasBackColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>BackColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>&amp;hFFFFFF</PropertyValue>
+   <ItemType>Color</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Backdrop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <ItemType>Picture</ItemType>
+   <EditorType>Picture</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Menus</PropertyGroup>
+   <ItemType>MenuBar</ItemType>
+   <EditorType>MenuBar</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBarVisible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Deprecated</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+  </ViewProperty>
+ </ViewBehavior>
+ <ControlBehavior>
+  <Superclass>HTMLViewer</Superclass>
+  <HookInstance>
+   <ItemName>DocumentComplete</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub DocumentComplete(URL as String)</SourceLine>
+    <SourceLine>if URL="https://www.healthplanet.jp/oauth/approval.do" then</SourceLine>
+    <SourceLine>MsgBox ("コードが発行されました")</SourceLine>
+    <SourceLine>end if</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>PushButton</Superclass>
+  <HookInstance>
+   <ItemName>Action</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Action()</SourceLine>
+    <SourceLine>self.Close()</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <Control>
+  <ControlClass>HTMLViewer</ControlClass>
+  <ItemName>HTMLViewer</ItemName>
+  <PropertyVal Name="Name">HTMLViewer1</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Left">72</PropertyVal>
+  <PropertyVal Name="Top">20</PropertyVal>
+  <PropertyVal Name="Width">383</PropertyVal>
+  <PropertyVal Name="Height">441</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="TabIndex">0</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Renderer">0</PropertyVal>
+  <PropertyVal Name="Super">HTMLViewer</PropertyVal>
+  <ControlIndex>0</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>PushButton</ControlClass>
+  <ItemName>PushButton</ItemName>
+  <PropertyVal Name="Name">PushButton1</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Scope">2</PropertyVal>
+  <PropertyVal Name="Left">375</PropertyVal>
+  <PropertyVal Name="Top">480</PropertyVal>
+  <PropertyVal Name="Width">80</PropertyVal>
+  <PropertyVal Name="Height">20</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="TabIndex">1</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="Caption">閉じる</PropertyVal>
+  <PropertyVal Name="Default">True</PropertyVal>
+  <PropertyVal Name="Cancel">False</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="ButtonStyle">0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="TextSize">0.0e+</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Super">PushButton</PropertyVal>
+  <ControlIndex>1</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+</block>
+<block type="UIState" ID="0">
+ <StudioWindowState>
+  <EditBounds><Rect left="0" top="23" width="1440" height="873"/></EditBounds>
+  <WindowMaximized>0</WindowMaximized>
+  <Editors>
+   <EditorCount>1</EditorCount>
+   <Editor>
+    <EditorIndex>0</EditorIndex>
+    <EditorLocation></EditorLocation>
+    <EditorPath></EditorPath>
+    <EditorPath></EditorPath>
+   </Editor>
+   <SelectedTab>0</SelectedTab>
+  </Editors>
+ </StudioWindowState>
+</block>
+</RBProject>
