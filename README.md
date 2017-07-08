@@ -10,5 +10,5 @@ taniget.app.zipを解凍してお使いください。<br>
 6 データ取得<br>
 7 リストボックスを選択してコピー　あとはご自由に<br>
 
-xml.projectを使う場合は、Xojoにてビルドしてください。<br>
-ヘルスプラネットのWebサイトにてClient_ID、Client_Secretを取得し、Window1.Constantsにそれぞれ設定してください。<br>
+(xojo_xml.projectを使用する場合、開発環境として要Xojo。
+ヘルスプラネットのWebサイトにてClient_ID、Client_Secretを取得し、Window1.Constantsのデフォルト値を設定)
